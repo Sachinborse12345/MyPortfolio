@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #222;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    font-weight: 700;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.leaf {
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+@media (max-width: 767px) {
+    header .text-end {
+        text-align: left !important;
+        margin-top: 12px;
+    }
+
+    .avatar {
+        width: 56px;
+        height: 56px;
+    }
+}
